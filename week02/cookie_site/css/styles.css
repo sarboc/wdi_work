@@ -1,0 +1,25 @@
+body {
+	background-color: navy;
+	color: white;
+	font-family: helvetica;
+	margin: 20px auto;
+	width: 500px;
+}
+
+header {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+footer img {
+	margin: 0 5px;
+}
+
+a, a:visited, a:active {
+	color: darkorange;
+	text-decoration: none;
+}
+

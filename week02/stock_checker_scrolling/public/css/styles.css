@@ -1,0 +1,58 @@
+body {
+	width: 600px;
+	margin: 20px auto;
+	font-family: monospace;
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+section {
+
+}
+
+footer {
+	margin-top: 10px;
+}
+
+p, input, button {
+	font-size: 16px;
+}
+
+footer p {
+	font-size: 12px;
+}
+
+#pos {
+	color: green;
+}
+
+#neg {
+	color: red;
+}
+
+button {
+	background-color: grey;
+	border: solid black 2px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+button:hover {
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+
+a, a:hover, a:active, a:visited {
+	color: white;
+}
+
+marquee {
+	border-top: dashed white 2px;
+	border-bottom: dashed white 2px;
+	margin-bottom: 10px;
+}
+
+
+

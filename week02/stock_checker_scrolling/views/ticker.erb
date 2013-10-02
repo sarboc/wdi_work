@@ -1,0 +1,10 @@
+<section>
+	<marquee behavior="scroll" direction="left" scrollamount="3">
+		<p><% if STOCKS.empty? == false %>
+			<% STOCKS.reverse_each do |symbol, stock| %>
+			<%=stock[:name]%> (<%= stock[:symbol]%>): 
+			<span id="<%=stock[:change]%>">$<%= stock[:price]%></span>  -  
+			<% end %>
+		<% end %></p>
+	</marquee>
+</section>

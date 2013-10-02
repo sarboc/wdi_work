@@ -1,0 +1,8 @@
+<% if STORAGE.empty? %>
+	<p>Nobody has signed the guest book yet. :-(</p>
+<% else %>
+	<% STORAGE.reverse_each do |time, hash| %>
+	<h3>On <%= time.httpdate %>, <%= hash[:name] %> wrote:</h3>
+	<p><%= hash[:comment] %></p>
+	<% end %>
+<% end %>

@@ -1,0 +1,7 @@
+<section>
+	<p>The current stock price for:<br/>
+	<%= @name %> (ticker symbol <%= @symbol %>)<br/>
+	is <span id="<%= @change == "+" ? @pos : @neg %>"><%= @price %></span></p>
+</section>
+
+<%= erb :form %>
